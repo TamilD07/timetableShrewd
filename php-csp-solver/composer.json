@@ -1,0 +1,17 @@
+{
+    "name": "asus/php-csp-solver",
+    "require": {
+        "fieg/csp": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asus\\PhpCspSolver\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TamilD07",
+            "email": "tamilkumaranmtk@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'asus/php-csp-solver',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'asus/php-csp-solver' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'fieg/csp' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'reference' => '1407c5070b245fa70e285c329c85490950c75989',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../fieg/csp',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'fieg/graph-search' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'reference' => '664522d8e95d4f2fffdfa40d4d02efdcdf3f2d5c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../fieg/graph-search',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

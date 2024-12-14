@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c5583d62a5d1fc0aafb57387eda6abd3",
+    "packages": [
+        {
+            "name": "fieg/csp",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fieg/csp.git",
+                "reference": "1407c5070b245fa70e285c329c85490950c75989"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fieg/csp/zipball/1407c5070b245fa70e285c329c85490950c75989",
+                "reference": "1407c5070b245fa70e285c329c85490950c75989",
+                "shasum": ""
+            },
+            "require": {
+                "fieg/graph-search": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fieg\\CSP\\": "src/Fieg/CSP/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Fiege",
+                    "email": "jeroen@webcreate.nl",
+                    "homepage": "http://www.fieg.nl"
+                }
+            ],
+            "description": "Implementation of a Constraint Satisfaction Problem algorithm in PHP",
+            "homepage": "https://github.com/fieg/graph-search",
+            "keywords": [
+                "artificial",
+                "constraint",
+                "intelligence",
+                "problem",
+                "satisfaction"
+            ],
+            "support": {
+                "issues": "https://github.com/fieg/csp/issues",
+                "source": "https://github.com/fieg/csp/tree/master"
+            },
+            "time": "2014-06-02T21:23:03+00:00"
+        },
+        {
+            "name": "fieg/graph-search",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fieg/graph-search.git",
+                "reference": "664522d8e95d4f2fffdfa40d4d02efdcdf3f2d5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fieg/graph-search/zipball/664522d8e95d4f2fffdfa40d4d02efdcdf3f2d5c",
+                "reference": "664522d8e95d4f2fffdfa40d4d02efdcdf3f2d5c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fieg\\GraphSearch\\": "src/Fieg/GraphSearch/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Fiege",
+                    "email": "jeroen@webcreate.nl",
+                    "homepage": "http://www.fieg.nl"
+                }
+            ],
+            "description": "Implementation of Graph Search algorithm in PHP",
+            "homepage": "https://github.com/fieg/graph-search",
+            "keywords": [
+                "artificial",
+                "graph",
+                "intelligence",
+                "search"
+            ],
+            "support": {
+                "issues": "https://github.com/fieg/graph-search/issues",
+                "source": "https://github.com/fieg/graph-search/tree/master"
+            },
+            "time": "2014-06-02T20:23:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,38 @@
+<?php
+// Connect to your database
+include('../config.php');
+
+// Check connection
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    exit();
+}
+
+// Retrieve the image data from the database
+$query = "SELECT image_data FROM timetable_images ORDER BY id DESC LIMIT 1"; // Assuming your table is named 'timetable_images'
+$result = mysqli_query($con, $query);
+
+if ($result) {
+    if (mysqli_num_rows($result) > 0) { // Check if there are rows returned
+        // Fetch the image data
+        $row = mysqli_fetch_assoc($result);
+        $image_data = $row['image_data'];
+
+        // Set the correct content type header based on the image format (assuming it's PNG)
+        header("Content-type: image/png");
+        
+        // Output the image data
+        echo $image_data;
+    } else {
+        echo "No image found in the database.";
+    }
+    
+    // Free result set
+    mysqli_free_result($result);
+} else {
+    echo "Error: Unable to fetch image data from the database.";
+}
+
+// Close the database connection
+mysqli_close($con);
+?>
